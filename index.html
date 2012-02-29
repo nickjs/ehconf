@@ -1,0 +1,122 @@
+<html 9000>
+  <head>
+    <title>BEAVER CONF 2013</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+      /*
+        Parallax CSS
+        Author: Paul Hayes
+        Lovingly Stolen from TacoConf.com
+      */
+
+      body { text-transform: uppercase; padding: 0; margin: 0;}
+
+      #beaverparty {
+        background: url('background.gif') 5% 5%, url('foreground.png') 50% 50%, url('midground.png') 90% 110%;
+        top: 0;
+        left: -9999px;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        -webkit-transition: left 300s linear;
+        -moz-transition: left 300s linear;
+        -o-transition: left 300s linear;
+        -ms-transition: left 300s linear;
+        transition: left 300s linear;
+      }
+
+      #header {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #333;
+
+        color: #ccc;
+        padding: 3em 0;
+        border: 2px solid #666;
+      }
+
+      #info {
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        text-align: center;
+        opacity: 0.95;
+        padding: 5px;
+        font-size: 20px;
+        position: relative;
+        background: white;
+        width: 50%;
+        margin: 40px auto;
+      }
+
+      .skewed {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        display: inline-block;
+        color: #fff;
+        font: 900 10em "lato";
+        letter-spacing: -2px;
+        text-transform: uppercase;
+        position: relative;
+        -webkit-transform: rotate(7deg) skew(7deg, 0);
+           -moz-transform: rotate(7deg) skew(7deg, 0);
+            -ms-transform: rotate(7deg) skew(7deg, 0);
+             -o-transform: rotate(7deg) skew(7deg, 0);
+                transform: rotate(7deg) skew(7deg, 0);
+      }
+
+      .skewed:after {
+        border-radius: .25em 0 0 .25em;
+        left: -2.5em;
+      }
+      .skewed:before {
+        border-radius: 0 .25em .25em 0;
+        right: -2.5em;
+      }
+
+      .skewed span {
+        position: relative;
+        text-shadow: 1px 2px 0 #666,
+                     2px 3px 0 #888;
+        text-transform: uppercase;
+      }
+
+      .protip { font-style: italic; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <div id="beaverparty"></div>
+    <div id="header">
+      <h1 class="skewed"><span>BEAVER CONF, EH?</span></h1>
+    </div>
+
+    <div id="info">
+      <p>Dates TBA<br />(will be Februaryish 2013, when the Rideau Canal opens, keep an eye on <a href="http://twitter.com/BeaverConf">our twitters</a>)</p>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://beaverconf.com" data-text="A conference based on beaver (tails) and ice skating! #beaverconf">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      <p>Day 1: <a href="http://www.canadascapital.gc.ca/places-to-visit/rideau-canal-skateway">Rideau Canal</a>, Ottawa &mdash; The largest outdoor skating rink in the world with lots of <a href="http://en.wikipedia.org/wiki/BeaverTails">Beaver Tail</a> stalls</p>
+      <p>Day 2: Bare Fax Gentleman's Club, Ottawa &mdash; The largest indoor breakfast buffet with bacon that is nearby the canal</p>
+      <p>Requirements: Ice Skates (rentals available) + Cash (moreso on day 2). Bonus points if you bring your significant other and/or kids. BeaverConf is fun for the whole family!</p>
+      <p>Be prepared to skate between Beaver Tail stands, exercise muscles you never knew you had, and hear presentations from smart computer people</p>
+      <p>Speakers: TBA (but they will be mediocre and probably Canadian)</p>
+      <p class="protip">We are calling it a conf because a) it will be two days long and b) now you can justify taking time off work to go to a 'conference'</p>
+      <p class="protip">If you are interested in sponsoring (we are willing to name [real] beavers after your software company) please reach out to <a href="http://twitter.com/nciagra">@nciagra</a> or <a href="http://twitter.com/pushmatrix">@pushmatrix</a>.</p>
+      <p class="protip">Just in case it wasn't obvious this is in Canada, we mean Ottawa, Ontario, Canada. Not Ottawa, Illinois, United States.</p>
+      <br />
+      <p class="protip">Lovingly inspired by <a href="http://tacoconf.com">TacoConf</a>, which is a thing that you should probably go to.</p>
+
+    </div>
+
+    <script type="text/javascript">
+      document.getElementById("beaverparty").style.left="9999px"
+    </script>
+
+<script type="text/javascript" src="http://www.observerapp.com/record.js"></script>
+<script type="text/javascript">
+try { Observerapp.record("4c68e02302d89fcb02000054"); } catch(e) {};
+</script>
+
+  </body>
+</html>
